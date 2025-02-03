@@ -1,13 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import './components-global/navbar';
+import './components-global/main_header.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <navbar/>        
-      </header>
+      <navbar/>
     </div>
   );
 }
